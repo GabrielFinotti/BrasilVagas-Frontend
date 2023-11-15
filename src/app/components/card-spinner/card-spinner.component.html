@@ -1,0 +1,29 @@
+<div
+  class="col-12 col-md-6 col-lg-4 col-xl-3 card border-0 mb-4"
+  *ngFor="let card of cardSpinner"
+  #cardSpinners
+  [hidden]="showCards"
+>
+  <div class="card-body">
+    <h5 class="card-title placeholder-wave">
+      <span class="placeholder col-9"></span>
+    </h5>
+    <p class="card-subtitle placeholder-wave">
+      <span class="placeholder col-4"></span>
+    </p>
+    <p class="card-subtitle placeholder-wave">
+      <span class="placeholder col-2"></span>
+    </p>
+    <p class="card-text placeholder-wave">
+      <span class="placeholder col-12"
+        >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur
+        ab voluptatibus modi? Voluptatibus, reiciendis delectus sed dolore
+        ducimus labore voluptate sunt dolorum praesentium nam, ratione, iste
+        consectetur minima ex iusto!</span
+      >
+    </p>
+    <div class="placeholder-wave">
+      <a class="placeholder disabled col-7" aria-disabled="true"></a>
+    </div>
+  </div>
+</div>

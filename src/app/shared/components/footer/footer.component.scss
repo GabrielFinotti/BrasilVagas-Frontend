@@ -1,0 +1,11 @@
+@import "../../../scss/variaveis.scss";
+
+// Formatação
+footer {
+  background-color: $primary-color;
+  color: $secondary-text-color;
+}
+
+p {
+  text-align: justify;
+}

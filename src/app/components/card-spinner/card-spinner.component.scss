@@ -1,0 +1,20 @@
+@import "../../scss/variaveis.scss";
+
+// Formatações
+p {
+  margin: 10px 0;
+
+  &.card-subtitle {
+    font-size: 14px;
+  }
+
+  &.card-text {
+    max-height: 200px;
+  }
+}
+
+a {
+  background-color: $primary-color;
+  border-radius: 8px;
+  padding: 18px;
+}

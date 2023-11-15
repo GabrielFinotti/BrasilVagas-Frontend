@@ -1,0 +1,28 @@
+<div
+  class="col-12 col-md-6 col-lg-4 col-xl-3 card border-0 mb-4"
+  [id]="card.id"
+  *ngFor="let card of cards"
+>
+  <div class="card-body">
+    <h5 class="card-title">
+      {{ card.title == "" || null ? "Título da vaga" : card.title }}
+    </h5>
+    <p class="card-subtitle">
+      {{
+        card.date == "" || null
+          ? "Data de cadastro"
+          : "Cadastrado em " + card.date
+      }}
+    </p>
+    <p class="card-subtitle">
+      {{ card.local == "" || null ? "Local" : card.local }} -
+      {{ card.type == "" || null ? "Tipo" : card.type }}
+    </p>
+    <p class="card-text overflow-auto">
+      {{ card.desc == "" || null ? "Descrição da vaga" : card.desc }}
+    </p>
+    <a [href]="card.link == '' || null ? '#' : card.link" class="btn fw-bold"
+      >Ver mais informações</a
+    >
+  </div>
+</div>

@@ -1,0 +1,76 @@
+{
+  "vagas": [
+    {
+      "id": 0,
+      "title": "Auxiliar Técnico",
+      "date": "10/09/2023",
+      "local": "Recife",
+      "type": "CLT",
+      "desc": "Estamos em busca de um(a) profissional proativo(a) e dedicado(a) para ocupar a posição de Auxiliar Técnico em nossa empresa. O candidato ideal terá habilidades técnicas sólidas, capacidade de aprendizado rápido e excelente atenção aos detalhes. O(a) Auxiliar Técnico desempenhará um papel fundamental no suporte às operações técnicas da empresa, trabalhando em estreita colaboração com a equipe técnica sênior.",
+      "link": "#"
+    },
+    {
+      "id": 1,
+      "title": "Desenvolvedor Júnior em React",
+      "date": "06/05/2023",
+      "local": "São Paulo",
+      "type": "PJ",
+      "desc": "Estamos em busca de um(a) Desenvolvedor(a) Júnior em React apaixonado(a) por programação e tecnologia para integrar nossa equipe dinâmica e inovadora. Se você é um profissional curioso, proativo e deseja fazer parte de projetos desafiadores, esta oportunidade é para você.",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "title": "Analista de Segurança da Informação Júnio",
+      "date": "02/11/2023",
+      "local": "Olinda",
+      "type": "PJ",
+      "desc": "Estamos em busca de um(a) Analista de Segurança da Informação Júnior para fortalecer nossa equipe dedicada à proteção e integridade de dados. Se você é apaixonado(a) por segurança cibernética, possui uma mentalidade proativa e está disposto(a) a enfrentar desafios no universo da segurança da informação, convidamos você a se candidatar.",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "title": "Técnico em Enfermagem",
+      "date": "08/10/2023",
+      "local": "Olinda",
+      "type": "CLT",
+      "desc": "Estamos em busca de um profissional dedicado e qualificado para ocupar a posição de Técnico em Enfermagem em nossa equipe de saúde. O candidato ideal será responsável por fornecer assistência técnica e cuidados especializados aos pacientes, trabalhando em colaboração com a equipe multidisciplinar para garantir a prestação de cuidados de alta qualidade.",
+      "link": "#"
+    },
+    {
+      "id": 4,
+      "title": "Auxiliar de Serviços Gerais",
+      "date": "16/03/2023",
+      "local": "Jaboatão dos Guararapes",
+      "type": "CLT",
+      "desc": "Estamos à procura de um(a) profissional dedicado(a) para ocupar a posição de Auxiliar de Serviços Gerais em nossa equipe. O(a) candidato(a) ideal será responsável por auxiliar na manutenção e limpeza das instalações, garantindo um ambiente organizado e seguro para todos.",
+      "link": "#"
+    },
+    {
+      "id": 5,
+      "title": "Enfermeira",
+      "date": "13/11/2023",
+      "local": "Rio de Janeiro",
+      "type": "Seletiva",
+      "desc": "Estamos em busca de uma enfermeira qualificada e dedicada para integrar nossa equipe de saúde. O profissional ideal será responsável por coordenar e fornecer cuidados de enfermagem de alta qualidade, garantindo a segurança e o bem-estar dos pacientes. Além disso, a enfermeira desempenhará um papel crucial na supervisão de equipes e na implementação de protocolos de assistência.",
+      "link": "#"
+    },
+    {
+      "id": 6,
+      "title": "Médico Cardiologista",
+      "date": "23/04/2023",
+      "local": "Rio Grande do Sul",
+      "type": "CLT",
+      "desc": "Estamos em busca de um médico cardiologista altamente qualificado e dedicado para integrar nossa equipe de saúde. O profissional ideal será responsável por oferecer cuidados especializados em cardiologia, diagnosticar condições cardíacas, e implementar planos de tratamento eficazes. Além disso, será crucial para educar os pacientes sobre saúde cardíaca e promover a prevenção de doenças cardiovasculares.",
+      "link": "#"
+    },
+    {
+      "id": 7,
+      "title": "Desenvolvedor Java",
+      "date": "28/07/2023",
+      "local": "Mato Grosso do Sul",
+      "type": "Estágio",
+      "desc": "Estamos em busca de um(a) desenvolvedor(a) Java talentoso(a) e motivado(a) para se juntar à nossa equipe de desenvolvimento. O(a) candidato(a) ideal será responsável por contribuir para o design, implementação e manutenção de sistemas Java de alta qualidade. Se você é apaixonado(a) por programação e busca constantemente aprimorar suas habilidades, gostaríamos de ouvir de você.",
+      "link": "#"
+    }
+  ]
+}
