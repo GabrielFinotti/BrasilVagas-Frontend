@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class HomeComponent {
   protected confirm!: boolean;
 
-  getConfirm(event: boolean) {
+  protected getConfirm(event: boolean) {
     this.confirm = event;
   }
 }
