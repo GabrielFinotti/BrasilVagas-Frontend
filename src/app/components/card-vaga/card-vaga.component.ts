@@ -10,24 +10,24 @@ import { CardService } from 'src/app/shared/services/card.service';
 export class CardVagaComponent implements OnInit {
   @Output() protected confirm = new EventEmitter();
 
-  public cards!: Array<Card>;
-  protected conf!: boolean;
+  protected cards!: Array<Card>;
+  private conf!: boolean;
 
   constructor(private cardsService: CardService) {}
 
   ngOnInit(): void {
     this.cardsService.getCards().subscribe(
       (res) => {
-        // Temporizador pra debug de visualização, não presente na versão de produção
-        setTimeout(() => {
-          this.conf = false;
-          this.confirm.emit(this.conf);
-          this.cards = res;
-        }, 2500);
+        this.conf = false;
+        this.confirm.emit(this.conf);
+        this.cards = res;
       },
       (erro) => {
         this.conf = true;
         this.confirm.emit(this.conf);
+        console.error(
+          `Não foi possível se comunicar com o servidor, erro: ${erro.message}`
+        );
       }
     );
   }

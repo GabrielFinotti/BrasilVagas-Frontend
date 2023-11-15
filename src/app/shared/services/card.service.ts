@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class CardService {
-  protected url!: string;
+  private url!: string;
 
   constructor(private http: HttpClient) {
     this.url = 'http://localhost:3000/';
