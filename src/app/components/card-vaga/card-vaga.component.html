@@ -5,24 +5,18 @@
 >
   <div class="card-body">
     <h5 class="card-title">
-      {{ card.title == "" || null ? "Título da vaga" : card.title }}
+      {{ card.title }}
     </h5>
     <p class="card-subtitle">
-      {{
-        card.date == "" || null
-          ? "Data de cadastro"
-          : "Cadastrado em " + card.date
-      }}
+      {{ card.date }}
     </p>
     <p class="card-subtitle">
-      {{ card.local == "" || null ? "Local" : card.local }} -
-      {{ card.type == "" || null ? "Tipo" : card.type }}
+      {{ card.local }} -
+      {{ card.type }}
     </p>
     <p class="card-text overflow-auto">
-      {{ card.desc == "" || null ? "Descrição da vaga" : card.desc }}
+      {{ card.desc }}
     </p>
-    <a [href]="card.link == '' || null ? '#' : card.link" class="btn fw-bold"
-      >Ver mais informações</a
-    >
+    <a [href]="card.link" class="btn fw-bold">Ver mais informações</a>
   </div>
 </div>
