@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "BrasilVagas:build:production"
+              "buildTarget": "BrasilVagas:build:production"
             },
             "development": {
-              "browserTarget": "BrasilVagas:build:development"
+              "buildTarget": "BrasilVagas:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "BrasilVagas:build"
+            "buildTarget": "BrasilVagas:build"
           }
         },
         "test": {
