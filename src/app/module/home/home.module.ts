@@ -5,6 +5,7 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from 'src/app/pages/home/home.component';
 import { CardVagaComponent } from 'src/app/components/card-vaga/card-vaga.component';
 import { CardSpinnerComponent } from 'src/app/components/card-spinner/card-spinner.component';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 
 
@@ -16,6 +17,7 @@ import { CardSpinnerComponent } from 'src/app/components/card-spinner/card-spinn
   ],
   imports: [
     CommonModule,
+    SharedModule
   ],
   exports: [
     HomeComponent,
