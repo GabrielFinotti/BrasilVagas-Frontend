@@ -15,6 +15,14 @@ Projeto privado desenvolvido em equipe para centralizar informações sobre vaga
 
 O Brasilvagas oferece a funcionalidade de cadastramento de usuários. Para criar uma conta, utilize a interface de cadastro disponível.
 
+### Personalização de Conta
+
+Usuários podem personalizar suas contas com uma foto. Essa imagem será exibida junto com suas informações de perfil.
+
+### Currículo em PDF
+
+Os usuários têm a capacidade de salvar um arquivo PDF do seu currículo diretamente na plataforma. Isso proporciona uma maneira conveniente de compartilhar informações detalhadas sobre suas habilidades e experiências.
+
 ### Tipos de Contas
 
 1. **Usuários em Busca de Vagas:**
