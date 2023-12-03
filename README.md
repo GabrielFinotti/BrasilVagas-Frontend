@@ -1,27 +1,37 @@
-# BrasilVagas
+# Brasilvagas
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
+Projeto privado desenvolvido em equipe para centralizar informações sobre vagas de emprego no Brasil.
 
-## Development server
+## Tecnologias
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Angular 17
+- SCSS
+- Lumen (backend)
+- PostgreSQL (banco de dados)
 
-## Code scaffolding
+## Funcionalidades Principais
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Cadastramento de Usuários
 
-## Build
+O Brasilvagas oferece a funcionalidade de cadastramento de usuários. Para criar uma conta, utilize a interface de cadastro disponível.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Personalização de Conta
 
-## Running unit tests
+Usuários podem personalizar suas contas com uma foto. Essa imagem será exibida junto com suas informações de perfil.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Currículo em PDF
 
-## Running end-to-end tests
+Os usuários têm a capacidade de salvar um arquivo PDF do seu currículo diretamente na plataforma. Isso proporciona uma maneira conveniente de compartilhar informações detalhadas sobre suas habilidades e experiências.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Tipos de Contas
 
-## Further help
+1. **Usuários em Busca de Vagas:**
+   - Podem pesquisar e visualizar vagas disponíveis.
+   - Acesso à funcionalidade de candidatura a vagas.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+2. **Usuários que Disponibilizam Vagas:**
+   - Além das funcionalidades do tipo anterior, esses usuários têm a capacidade de adicionar novas vagas por meio de um formulário.
+
+## Adicionando Vagas
+
+Usuários que disponibilizam vagas podem contribuir adicionando novas oportunidades por meio de um formulário. Siga as orientações disponíveis na interface do usuário.
