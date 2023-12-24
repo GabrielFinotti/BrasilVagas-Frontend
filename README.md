@@ -35,4 +35,3 @@ Os usuários têm a capacidade de salvar um arquivo PDF do seu currículo direta
 ## Adicionando Vagas
 
 Usuários que disponibilizam vagas podem contribuir adicionando novas oportunidades por meio de um formulário. Siga as orientações disponíveis na interface do usuário.
-
