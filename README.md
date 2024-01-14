@@ -4,7 +4,7 @@ Projeto privado desenvolvido em equipe para centralizar informações sobre vaga
 
 ## Tecnologias
 
-- Angular 17
+- Angular
 - SCSS
 - Lumen (backend)
 - PostgreSQL (banco de dados)
