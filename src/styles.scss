@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+@import "app/scss/index.scss";
+
+@font-face {
+  font-family: Ubuntu;
+  src: url(assets/fonts/Ubuntu-Light.woff);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url(assets/fonts/Ubuntu-Regular.woff);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url(assets/fonts/Ubuntu-Medium.woff);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url(assets/fonts/Ubuntu-Bold.woff);
+  font-weight: bold;
+}
+
+* {
+  font-family: Ubuntu, sans-serif;
+}
