@@ -31,6 +31,10 @@ header {
           &::placeholder {
             color: $primary-text-color;
           }
+
+          &::-webkit-search-cancel-button {
+            display: none;
+          }
         }
 
         &[type="submit"] {
