@@ -1,0 +1,51 @@
+@import "../../../scss/index.scss";
+
+header {
+  background: $secondary-bg-color;
+
+  nav {
+    form {
+      input,
+      select {
+        background: $primary-bg-color;
+        border: 0;
+        border-radius: 5px;
+
+        font-weight: normal;
+        text-indent: 10px;
+
+        width: 100%;
+        max-width: 550px;
+        height: 45px;
+        margin: auto;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      input {
+        &[type="search"] {
+          color: $primary-text-color;
+
+          &::placeholder {
+            color: $primary-text-color;
+          }
+
+          &::-webkit-search-cancel-button {
+            display: none;
+          }
+        }
+
+        &[type="submit"] {
+          background: $secondary-btn-color;
+
+          color: $primary-bg-color;
+          font-weight: 500;
+
+          max-width: 170px;
+        }
+      }
+    }
+  }
+}

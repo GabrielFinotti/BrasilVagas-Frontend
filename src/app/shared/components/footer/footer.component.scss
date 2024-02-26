@@ -1,0 +1,15 @@
+@import "../../../scss/index.scss";
+
+footer {
+  background: $secondary-bg-color;
+
+  #description {
+    p {
+      text-align: justify;
+    }
+  }
+
+  h5 {
+    font-weight: bold;
+  }
+}
